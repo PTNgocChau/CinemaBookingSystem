@@ -49,9 +49,26 @@ This project is an event-driven desktop application that allows users to manage 
 ## System Architecture | Cấu Trúc Hệ Thống
 
 ```text
-src/
-├── gui/
-├── entity/
-├── connectDB/
-├── dao/
-└── main/
+CinemaBookingSystem/
+│
+├── src/
+│   ├── connectDB/
+│   ├── dao/
+│   ├── entity/
+│   └── gui/
+│
+├── database/
+│   └── ALL.sql
+│
+├── assets/
+│   ├── background.jpg
+│   ├── logo.png
+│   └── logout.png
+│
+├── docs/
+│   └── VeXemPhim.pdf
+│
+├── lib/
+│
+├── README.md
+└── .gitignore
