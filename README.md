@@ -10,7 +10,7 @@ Hệ thống đặt vé xem phim dạng desktop được phát triển bằng Ja
 
 This project is an event-driven desktop application that allows users to manage movie ticket booking operations in a local environment. The system provides features for managing movies, showtimes, customers, ticket reservations, and payments through an interactive graphical user interface.
 
-Đây là ứng dụng desktop hướng sự kiện cho phép quản lý các hoạt động đặt vé xem phim trong môi trường local. Hệ thống hỗ trợ quản lý phim, suất chiếu, khách hàng, đặt vé và thanh toán thông qua giao diện đồ họa trực quan.
+Đây là ứng dụng desktop hướng sự kiện cho phép quản lý các hoạt động đặt vé xem phim trong môi trường local. Hệ thống hỗ trợ quản lý phim, suất chiếu, khách hàng, đặt vé, thanh toán, và kết hợp thống kê thông qua giao diện đồ họa trực quan.
 
 ---
 
@@ -38,14 +38,8 @@ This project is an event-driven desktop application that allows users to manage 
 - Seat selection and ticket booking  
   Chọn ghế và đặt vé
 
-- Customer management  
-  Quản lý khách hàng
-
 - Invoice and ticket printing  
   In hóa đơn và vé xem phim
-
-- Payment processing  
-  Xử lý thanh toán
 
 - Revenue statistics  
   Thống kê doanh thu
@@ -57,9 +51,7 @@ This project is an event-driven desktop application that allows users to manage 
 ```text
 src/
 ├── gui/
-├── controller/
-├── model/
+├── entity/
+├── connectDB/
 ├── dao/
-├── service/
-├── utils/
 └── main/
