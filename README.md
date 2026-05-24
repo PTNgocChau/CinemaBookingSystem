@@ -57,15 +57,11 @@ CinemaBookingSystem/
 │   ├── entity/
 │   └── gui/
 │
-├── database/
+├── data/
 │   └── ALL.sql
 │
-├── assets/
-│   ├── background.jpg
-│   ├── logo.png
-│   └── logout.png
 │
-├── docs/
+├── IN/
 │   └── VeXemPhim.pdf
 │
 ├── lib/
